@@ -1,0 +1,46 @@
+.productBlock{
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px 0;
+    width: 300px;
+ }
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nameBlock{
+    background: #77B2D3;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.blockEmail{
+    padding: 20px;
+}
+.blockEmail p {
+    overflow-x: scroll;
+    cursor: pointer;
+    margin: 20px 0;
+ }
+.user{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+.user input{
+    margin: 10px 0;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+.likeBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

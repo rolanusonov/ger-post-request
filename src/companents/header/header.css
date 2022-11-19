@@ -1,0 +1,20 @@
+#header{
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    margin: 0 0 30px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerBtn{
+    padding: 10px 15px;
+    background: linear-gradient(115.11deg, #FFBC2A 16.38%, #FF4F39 95.45%);
+    border-radius: 250px;
+    border: none;
+     font-size: 16px;
+    color: #FFFFFF;
+}
+.product{
+    font-size: 23px;
+}
